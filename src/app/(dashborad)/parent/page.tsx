@@ -1,10 +1,10 @@
 
-const SigInPage = () => {
+const ParentPage = () => {
     return (
         <div className=" text-7xl mt-16 text-center">
-            Please Login 
+           ParentPage
         </div>
     );
 };
 
-export default SigInPage;
+export default ParentPage;
