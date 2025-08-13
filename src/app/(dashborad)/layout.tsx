@@ -18,7 +18,7 @@ export default function DashboardLayout({
           className="flex p-2  gap-2 items-center justify-center lg:justify-start"
         >
           <Image src="/SM logo.png" alt="logo" width={32} height={32}  />
-          <span className="hidden md:block lg:block"> IGHS</span>
+          <span className="hidden md:block lg:block text-gray-600 font-bold"> IGHS</span>
         </Link>
         <Menu></Menu>
       </div>
