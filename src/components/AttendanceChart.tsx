@@ -14,14 +14,24 @@ import {
 
 const data = [
   {
-    name: "Mon",
+    name: "Sat",
     present: 60,
     absent: 40,
   },
   {
-    name: "Tue",
+    name: "Sun",
     present: 70,
     absent: 60,
+  },
+  {
+    name: "Mon",
+    present: 90,
+    absent: 75,
+  },
+  {
+    name: "Tue",
+    present: 85,
+    absent: 75,
   },
   {
     name: "Wed",
@@ -30,11 +40,6 @@ const data = [
   },
   {
     name: "Thu",
-    present: 90,
-    absent: 75,
-  },
-  {
-    name: "Fri",
     present: 65,
     absent: 55,
   },
