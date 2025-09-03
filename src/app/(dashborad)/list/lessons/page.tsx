@@ -40,7 +40,11 @@ const LessonListPage = () => {
       className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-[#F1F0FF]"
     >
       <td className="flex items-center gap-4 p-4 text-black">{item.subject}</td>
+<<<<<<< HEAD
       <td className="text-black">{item.class}</td>
+=======
+      <td className=" text-black ">{item.class}</td>
+>>>>>>> dd8a8bca441a1baa1994fa3e32b74620dc327099
       <td className="hidden md:table-cell text-black">{item.teacher}</td>
       <td>
         <div className="flex items-center gap-2 text-black">
